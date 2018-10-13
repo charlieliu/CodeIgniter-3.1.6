@@ -83,3 +83,22 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/*
+|--------------------------------------------------------------------------
+| HTTP_VERB
+|--------------------------------------------------------------------------
+*/
+defined('HTTP_VERB_GET')    OR define('HTTP_VERB_GET',    'GET');
+defined('HTTP_VERB_POST')   OR define('HTTP_VERB_POST',   'POST');
+defined('HTTP_VERB_PUT')    OR define('HTTP_VERB_PUT',    'PUT');
+defined('HTTP_VERB_DELETE') OR define('HTTP_VERB_DELETE', 'DELETE');
+defined('HTTP_VERB_PATCH')  OR define('HTTP_VERB_PATCH',  'PATCH');
+
+/*
+|--------------------------------------------------------------------------
+| API回傳代碼 0=成功、1=失敗
+|--------------------------------------------------------------------------
+*/
+defined('RESULT_OK')   OR define('RESULT_OK',   1);
+defined('RESULT_FAIL') OR define('RESULT_FAIL', 0);
